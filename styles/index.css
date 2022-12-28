@@ -178,3 +178,147 @@ button {
     background: #F5F5F5;
     padding: 50px 87px 50px 86px;
 }
+
+.text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 28px;
+}
+
+.text3 p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    width: 297px;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-height: 66px;
+
+}
+
+.section-4 {
+    background: #F5F5F5;
+}
+
+.recent-project {
+    padding-top: 79px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;;
+}
+
+.pictures {
+    margin-bottom: 30px
+}
+
+.card3 {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 10px 0 10px;
+    font-size: 0;
+}
+
+.table {
+    background: #FFFFFF;
+    height: 84px;
+    padding-top: 19px;
+    text-align: center;
+}
+
+.table span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.table p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px
+}
+
+.card4 {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px 10px 173px 10px;
+    font-size: 0;
+}
+
+
+.sq {
+    margin-bottom: 33px
+}
+
+#ot {
+    margin-top: 79px;
+
+}
+
+.container5 {
+
+    max-width: 1230px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card5 {
+    background: #E0E0E0;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px
+}
+
+.card5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text5 p {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+}
+
+.sq h1 {
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+}
+
+.bott {
+    height: 14px;
+    width: 29px;
+    display: inline-block;
+    background: #F5F5F5;
+    padding-bottom: 1px;
+    margin: 29px 3px 99px 3px;
+
+}
+
+.text5 h3 {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
