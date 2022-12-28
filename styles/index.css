@@ -143,7 +143,7 @@ button {
 }
 
 .section-3 {
-    margin-top: 79px;
+    padding-top: 79px;
     margin-bottom: 28px;
 }
 
@@ -162,17 +162,21 @@ button {
 }
 
 .card2 {
-    height: 219px;
+
     width: 300px;
-    background: #F5F5F5;
     display: inline-block;
     margin: 10px
 }
 
 .card2 img {
-    height: 119px;
+
     width: 127px;
-    margin: 50px 87px 50px 86px;
+
+}
+
+.card2-img {
+    background: #F5F5F5;
+    padding: 50px 87px 50px 86px;
 }
 
 .text3 {
@@ -180,7 +184,6 @@ button {
     font-size: 16px;
     line-height: 20px;
     margin-top: 28px;
-
 }
 
 .text3 p {
@@ -189,12 +192,13 @@ button {
     font-size: 15px;
     line-height: 22px;
     width: 297px;
-    height: 66px;
     -webkit-line-clamp: 3;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    margin-bottom: 74px
+    max-height: 66px;
+    margin-bottom: 74 px-
+
 }
 
 .section-4 {
@@ -247,6 +251,7 @@ button {
     margin: 10px 10px 173px 10px;
     font-size: 0;
 }
+
 
 .sq {
     margin-bottom: 33px
