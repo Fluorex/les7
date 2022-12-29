@@ -216,12 +216,11 @@ button {
 .recent-project p {
     text-shadow: -1px 1px 1px gray, -1.5px 1.5px 1px gray;
 }
-
+.pictures {font-size: 0;}
 .card3 {
     display: inline-block;
     width: 300px;
     margin: 10px;
-    font-size: 0;
 }
 
 .card3 img:hover {
