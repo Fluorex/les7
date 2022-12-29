@@ -52,6 +52,10 @@ header .d-flex {
     white-space: nowrap;
 }
 
+.container h1 {
+    text-shadow: 2px 2px 1px black
+}
+
 .section-1 {
     text-align: center;
     position: relative;
@@ -201,32 +205,38 @@ button {
 
 .section-4 {
     background: #F5F5F5;
+    padding: 79px 0 74px;
 }
 
 .recent-project {
-    padding-top: 79px;
+
     font-weight: 400;
     font-size: 23px;
     line-height: 36px;;
 }
 
-.pictures {
-    margin-bottom: 30px
-}
-
 .card3 {
     display: inline-block;
-    height: 300px;
     width: 300px;
-    margin: 10px 10px 0 10px;
+    margin: 10px 10px 20px 10px;
     font-size: 0;
+}
+
+.card3 img:hover {
+    opacity: 60%
+}
+.card4 img:hover {
+    opacity: 60%
 }
 
 .table {
     background: #FFFFFF;
-    height: 84px;
-    padding-top: 19px;
+    padding: 19px 0 20px 0;
     text-align: center;
+}
+
+.table:hover {
+    background: bisque
 }
 
 .table span {
@@ -239,26 +249,20 @@ button {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 4px
+    padding-bottom: 4px
 }
 
 .card4 {
     display: inline-block;
-    height: 300px;
     width: 300px;
-    margin: 10px 10px 173px 10px;
+    margin: 10px 10px 0 10px;
     font-size: 0;
 }
 
-
-.sq {
-    margin-bottom: 33px
+.section-5 {
+    padding: 79px 0 74px;
 }
 
-#ot {
-    margin-top: 79px;
-
-}
 
 .container5 {
 
@@ -273,7 +277,7 @@ button {
     height: 220px;
     text-align: center;
     display: inline-block;
-    margin: 10px
+    margin: 10px;
 }
 
 .card5 img {
@@ -281,6 +285,11 @@ button {
     height: 100%;
     object-fit: contain;
 }
+
+.card5 img:hover {
+    opacity: 60%
+}
+
 
 .text5 p {
     font-size: 14px;
@@ -301,14 +310,17 @@ button {
     line-height: 36px;
 }
 
+.ot {
+    text-shadow: -2px 1px 1px gray
+}
+
 .bott {
     height: 14px;
     width: 29px;
     display: inline-block;
     background: #F5F5F5;
     padding-bottom: 1px;
-    margin: 29px 3px 99px 3px;
-
+    margin: 29px 3px 0 3px;
 }
 
 .text5 h3 {
@@ -321,13 +333,36 @@ button {
     margin-bottom: 6px;
     text-transform: uppercase;
 }
+
 .section-6 {
     padding: 69px 0 65px;
     background: #F5F5F5;
 }
 
 .sign {
-    height: 62px;
+    max-height: 62px;
     width: 62px;
-    margin: 0 auto;
+    margin: 0 auto;;
+}
+
+.sec6 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.text6 {
+    margin-top: 65px;
+    width: 338px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.border3 {
+    margin: 67px 70px auto 52px;
+    width: 2px;
+    height: 215px;
+    background: rgba(0, 0, 0, 0.09);
+
 }
