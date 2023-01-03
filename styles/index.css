@@ -213,10 +213,15 @@ button {
     font-size: 23px;
     line-height: 36px;;
 }
+
 .recent-project p {
     text-shadow: -1px 1px 1px gray, -1.5px 1.5px 1px gray;
 }
-.pictures {font-size: 0;}
+
+.pictures {
+    font-size: 0;
+}
+
 .card3 {
     display: inline-block;
     width: 300px;
@@ -224,11 +229,23 @@ button {
 }
 
 .card3 img:hover {
-    opacity: 60%
+    opacity: 60%;
+    transition: 1s;
 }
+
 .card4 img:hover {
-    opacity: 60%
+    opacity: 60%;
+    transition: 1s;
 }
+
+.card3 img:not(:hover) {
+    transition: 1s;
+}
+
+.card4 img:not(:hover) {
+    transition: 1s;
+}
+
 
 .table {
     background: #FFFFFF;
@@ -237,7 +254,12 @@ button {
 }
 
 .table:hover {
-    background: bisque
+    background: bisque;
+    transition: 1s;
+}
+
+.table:not(:hover) {
+    transition: 1s;
 }
 
 .table span {
@@ -288,7 +310,12 @@ button {
 }
 
 .card5 img:hover {
-    opacity: 60%
+    opacity: 60%;
+    transition: 1s;
+}
+
+.card5 img:not(:hover) {
+    transition: 3s;
 }
 
 
@@ -336,19 +363,21 @@ button {
 }
 
 .section-6 {
-    padding: 69px 0 65px;
+    padding: 69px 0 98px;
     background: #F5F5F5;
 }
 
 .sign {
     max-height: 62px;
     width: 62px;
-    margin: 0 auto;;
+    margin: 0 auto;
+
 }
 
 .sec6 {
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -358,6 +387,29 @@ button {
     font-weight: 400;
     font-size: 26px;
     line-height: 33px;
+
+}
+
+.text7 {
+    margin-top: 65px;
+    width: 309px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+
+}
+
+.text6 p {
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.text6 img, .text7 img {
+    height: 64px;
+    width: 64px;
+    margin-top: 24px
 }
 
 .border3 {
@@ -365,5 +417,63 @@ button {
     width: 2px;
     height: 215px;
     background: rgba(0, 0, 0, 0.09);
+
+}
+
+.bottom-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase
+}
+
+.section-7 {
+    padding: 79px 0 75px;
+    background: url("/img/section-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.border4 {
+    margin: 0 auto;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    width: 80px;
+}
+.content-7 {display: flex;
+    justify-content: center;
+}
+
+
+.bottom-img-1 img {
+    width: 44px;
+    margin: 56px 0 26px 0;
+}
+
+.bottom-img-2 img {
+    width: 70px;
+    margin: 63px 251px 34px 263px;
+}
+
+.bottom-img-3 img {
+    width: 68px;
+    margin: 63px 0 28px 0;
+}
+.text-8  {font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px}
+.text-9 {font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212121;
 
 }
