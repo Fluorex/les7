@@ -3,28 +3,23 @@
     .nav-links {
         display: flex;
     }
-
     .logo-img {
         height: 70px;
         padding: 0;
     }
-
     .section-1 h1 {
         font-size: 44px;
     }
-
     .section-2 p {
         font-size: 18px;
         line-height: 25px;
         width: 940px;
     }
-
     .text2 {
 
         padding-top: 60px;
 
     }
-
     .section-4 {
         padding: 79px 0 89px;
     }
@@ -33,11 +28,9 @@
         display: inline-block;
         margin: 10px;
     }
-
     .table {
         margin-bottom: auto;
     }
-
     .card4 {
         display: inline-block;
         margin: 10px 10px 0 10px;
@@ -48,57 +41,43 @@
         display: inline-block;
         margin: 10px;
     }
-
     .bott {
         margin: 29px 3px 0 3px;
     }
-
     .card5 img {
         padding: 0;
     }
-
     .section-4 {
         padding: 79px 15px 89px;
     }
-
     .card2 {
         display: inline-block;
         margin: 10px
     }
-
     .text3 {
         margin-top: 28px;
     }
-
     .section-5 {
         padding: 79px 0 99px;
     }
-
     .text-10 {
         font-size: 15px;
 
     }
-
     .content-7 {
         display: flex;
         justify-content: space-between;
         width: 940px;
     }
-
-    .bottom-content {
-        width: 238px
-    }
-
+    .bottom-content {width: 238px}
     .sec6 {
         display: flex;
         justify-content: center;
     }
-
     .text6 {
         border-right: 2px solid;
         border-color: rgba(0, 0, 0, 0.04);
     }
-
     .inputs {
         width: 564px;
     }
