@@ -422,8 +422,7 @@ header .d-flex {
 
 .section-7 {
     padding: 79px 8px 75px;
-    background: url("/img/section-bg.png");
-    background-repeat: no-repeat;
+    background: url("/img/section-bg.png") no-repeat;
     background-size: cover;
 }
 
