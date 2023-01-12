@@ -279,7 +279,7 @@ header .d-flex {
 }
 
 .card4 {
-    display: inline;
+    margin: 0 auto;
     width: 300px;
     font-size: 0;
 }
