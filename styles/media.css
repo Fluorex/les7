@@ -68,10 +68,9 @@
     }
     .content-7 {
         display: flex;
-        justify-content: space-between;
-        width: 940px;
+        max-width: 940px;
     }
-    .bottom-content {width: 238px}
+    .bottom-content {width: 319px}
     .sec6 {
         display: flex;
         justify-content: center;

@@ -143,9 +143,10 @@ header .d-flex {
 
 .btn {
     background: #FEFEC9;
-    padding: 13px 33.5px 20px 34.5px;
+    padding: 12px 24px 19px 25px;
     border: 1px solid #47474F;
     border-bottom: 2px solid #47474F;
+
 }
 
 .section-3 {
@@ -460,9 +461,9 @@ header .d-flex {
     width: 68px;
     margin: 63px 0 28px 0;
 }
-.bottom-content {width: 238px;
-    margin-left: 12px}
-.bottom-content2 {width: 260px}
+.bottom-content {width: 319px;
+}
+.bottom-content2 {width: 319px}
 
 .text-8 {font-weight: 400;
     font-size: 16px;
@@ -493,7 +494,7 @@ header .d-flex {
 
 .bottom-img {
     text-align: left;
-    margin-left: 66px
+    margin-left: 103px
 }
 
 .section-8 {
@@ -503,12 +504,12 @@ header .d-flex {
 
 .button-bottom {
     background: #000000;
-    padding: 15px 60px 16px 60px;
+    padding: 15px 45px 16px 45px;
     border: 1px solid #7EC4BD;
     border-bottom: 2px solid #7EC4BD;
     margin-top: 22px;
-}
 
+}
 .button-bottom a {
     color: #8BCAC3;
     font-weight: 400;
