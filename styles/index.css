@@ -225,7 +225,7 @@ header .d-flex {
 }
 
 .card3 {
-    display: inline;
+    margin: 0 auto;
     width: 300px;
 
 }
@@ -285,7 +285,7 @@ header .d-flex {
 }
 
 .section-5 {
-    padding: 79px 20px 99px;
+    padding: 79px 0 79px;
 }
 
 
@@ -297,11 +297,9 @@ header .d-flex {
 }
 
 .card5 {
-    width: 220px;
-    height: 220px;
+    width: 240px;
     text-align: center;
-    display: inline;
-    margin: 3px;
+    margin: 0 auto;
 }
 
 .card5 img {

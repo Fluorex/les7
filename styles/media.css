@@ -40,6 +40,8 @@
         background: #E0E0E0;
         display: inline-block;
         margin: 10px;
+        height: 220px;
+        width: 220px;
     }
     .bott {
         margin: 29px 3px 0 3px;
