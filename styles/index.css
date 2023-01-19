@@ -129,15 +129,18 @@ label a {
 
 }
 
+
 header {
     padding: 18px 0;
     background: white;
+    overflow-x: hidden;
 }
 
 header .d-flex {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .card {
     background: #E0E0E0;
