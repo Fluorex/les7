@@ -647,7 +647,7 @@ rgba(255, 255, 255, 0.4);
     resize: none;
     background: rgba(255, 255, 255, 0.2);
 }
-
+.bottom-inputs {height: 57px}
 
 .bottom-inputs:nth-child(odd) {
     background: rgba(255, 255, 255, 0.18);
