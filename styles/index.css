@@ -610,6 +610,7 @@ header .d-flex {
     margin-top: 22px;
 
 }
+
 .button-bottom a {
     color: #8BCAC3;
     font-weight: 400;
@@ -647,8 +648,8 @@ rgba(255, 255, 255, 0.4);
     resize: none;
     background: rgba(255, 255, 255, 0.2);
 }
-.bottom-inputs {height: 57px}
 
+.bottom-inputs {height: 57px}
 .bottom-inputs:nth-child(odd) {
     background: rgba(255, 255, 255, 0.18);
 }
@@ -662,3 +663,4 @@ rgba(255, 255, 255, 0.4);
     color: #FFFFFF;
     font-style: italic;
 }
+
